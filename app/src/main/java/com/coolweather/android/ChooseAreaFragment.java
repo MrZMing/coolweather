@@ -104,10 +104,10 @@ public class ChooseAreaFragment extends Fragment{
                         activity.drawerLayout.closeDrawers();
                         activity.swipeRefresh.setRefreshing(true);
                         activity.requestWeather(weatherId);
-                        SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences
-                                (getActivity()).edit();
-                        editor.putString("weather_id",weatherId);
-                        editor.apply();
+//                        SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences
+//                                (getActivity()).edit();
+//                        editor.putString("weather_id",weatherId);
+//                        editor.apply();
                     }
                 }
             }
